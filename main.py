@@ -100,4 +100,4 @@ def deleteData():
     return result_json
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='10.0.2.3', port=8001)
